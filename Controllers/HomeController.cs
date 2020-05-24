@@ -26,5 +26,11 @@ namespace Jess_Carr_Entertainment.Controllers
 
             return View();
         }
+        public ActionResult Streams()
+        {
+            ViewBag.Message = "THe streams";
+
+            return View();
+        }
     }
 }
