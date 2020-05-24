@@ -15,7 +15,7 @@ namespace Jess_Carr_Entertainment.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Just a little JCE.";
 
             return View();
         }
