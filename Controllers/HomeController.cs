@@ -32,5 +32,33 @@ namespace Jess_Carr_Entertainment.Controllers
 
             return View();
         }
+
+        public ActionResult Music()
+        {
+            ViewBag.Message = "Smooth Stuff";
+
+            return View();
+        }
+
+        public ActionResult Podcasts()
+        {
+            ViewBag.Message = "Good Listens";
+
+            return View();
+        }
+
+        public ActionResult Art()
+        {
+            ViewBag.Message = "artbyian";
+
+            return View();
+        }
+
+        public ActionResult Team()
+        {
+            ViewBag.Message = "The Team";
+
+            return View();
+        }
     }
 }
